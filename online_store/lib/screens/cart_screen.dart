@@ -11,6 +11,8 @@ class CartScreen extends StatelessWidget {
     if (AddToCart.cartItems.isEmpty) {
       return Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          elevation: 0,
           title: const Text('Cart'),
         ),
         body: const Center(
@@ -24,6 +26,8 @@ class CartScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        elevation: 0,
         title: const Text('Cart'),
       ),
       body: ListView.builder(

@@ -16,6 +16,8 @@ class ProductDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        elevation: 0,
         title: const Text('Product Details'),
       ),
       body: SingleChildScrollView(
